@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.popup-ad {
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 320px;
+    overflow: hidden;
+    display: none;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Modern Ad Style 1 */
+.modern-ad-1 {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+}
+
+.modern-ad-1 .popup-ad-content {
+    padding: 20px;
+}
+
+.modern-ad-1 .popup-ad-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.modern-ad-1 .popup-ad-text {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.modern-ad-1 .close-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modern-ad-1 .close-button:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+.modern-ad-1 .popup-ad-button {
+    background-color: white;
+    color: #6e8efb;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+
+.modern-ad-1 .popup-ad-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Modern Ad Style 2 */
+.modern-ad-2 .popup-ad-header {
+    padding: 15px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    position: relative;
+}
+
+.modern-ad-2 .popup-ad-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modern-ad-2 .close-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modern-ad-2 .popup-ad-content {
+    padding: 20px;
+}
+
+.modern-ad-2 .popup-ad-image-container {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.modern-ad-2 .popup-ad-image {
+    width: 100%;
+    display: block;
+}
+
+.modern-ad-2 .popup-ad-text {
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.modern-ad-2 .popup-ad-button {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modern-ad-2 .popup-ad-button:hover {
+    background-color: #ff5252;
+}
+
+/* Modern Ad Style 3 */
+.modern-ad-3 {
+    display: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.modern-ad-3 .popup-ad-content {
+    padding: 0;
+    position: relative;
+}
+
+.modern-ad-3 .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.modern-ad-3 .popup-ad-image {
+    width: 100%;
+    display: block;
+}
+
+.modern-ad-3 .popup-ad-text-container {
+    padding: 20px;
+}
+
+.modern-ad-3 .popup-ad-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.modern-ad-3 .popup-ad-text {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.modern-ad-3 .popup-ad-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modern-ad-3 .popup-ad-button:hover {
+    background-color: #45a049;
+}
